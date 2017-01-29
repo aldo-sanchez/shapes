@@ -9,7 +9,7 @@ Triangle.prototype = Object.create(Shape.prototype);
 Triangle.prototype.constructor = Triangle;
 
 Triangle.prototype.tFunction = function(){
-  console.log('im a triangle function');
+  console.log('im a triangle');
 };
 
 module.exports = Triangle;

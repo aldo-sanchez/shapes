@@ -9,7 +9,7 @@ Square.prototype = Object.create(Shape.prototype);
 Square.prototype.constructor = Square;
 
 Square.prototype.sFunction = function(){
-  console.log('im a square function');
+  console.log('im a square');
 };
 
 module.exports = Square;
